@@ -1,0 +1,6 @@
+@SaiposAvisos_HostAddress = http://localhost:5011
+
+GET {{SaiposAvisos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
