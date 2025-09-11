@@ -31,3 +31,4 @@ C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\refint\
 C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.pdb
 C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.genruntimeconfig.cache
 C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\ref\SaiposAvisos.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.sourcelink.json
