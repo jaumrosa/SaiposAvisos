@@ -32,3 +32,38 @@ C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\SaiposA
 C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.genruntimeconfig.cache
 C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\ref\SaiposAvisos.dll
 C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.sourcelink.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\appsettings.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\global.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.exe
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.deps.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.runtimeconfig.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.pdb
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.csproj.AssemblyReference.cache
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.AssemblyInfoInputs.cache
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.AssemblyInfo.cs
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.csproj.CoreCompileInputs.cache
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.sourcelink.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.SaiposAvisos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.build.SaiposAvisos.props
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SaiposAvisos.props
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SaiposAvisos.props
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\scopedcss\bundle\SaiposAvisos.styles.css
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.csproj.CopyComplete
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\refint\SaiposAvisos.dll
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.pdb
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.genruntimeconfig.cache
+C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\ref\SaiposAvisos.dll
