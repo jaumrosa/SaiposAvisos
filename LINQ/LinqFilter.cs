@@ -1,27 +1,32 @@
-class LinqFilter
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Globalization;
+
+public static class LinqFilter
 {
-    public static void FiltrarNFC(RespostaSefaz servidores)
+    public static List<MonitorEstado> FiltrarInstaveis(List<MonitorEstado> estados)
     {
-        var autorizadorNFC = servidores.Componentes?.FirstOrDefault(s => s.Nome != null && s.Nome.Contains("Autorizadores de NFC-e", StringComparison.OrdinalIgnoreCase));
+        if (estados == null) return new List<MonitorEstado>();
 
-        if (autorizadorNFC != null && autorizadorNFC.Filhos != null)
-        {
-            Console.WriteLine($"=== {autorizadorNFC.Nome} ===");
-
-            foreach (var filhoId in autorizadorNFC.Filhos)
+        return estados
+            .Where(e =>
             {
-                var servidorFilho = servidores.Componentes?
-                    .FirstOrDefault(s => s.Id == filhoId);
-
-                if (servidorFilho != null)
-                {
-                    Console.WriteLine($"{servidorFilho.Nome} - {servidorFilho.Status}");
-                }
-            }
-        }
-        else
-        {
-            Console.WriteLine("Nenhum autorizador NFC-e encontrado.");
-        }
+                bool parseOk = decimal.TryParse(e.Status, NumberStyles.Any, CultureInfo.InvariantCulture, out var s);
+                return parseOk && s >= 1.1250m; //a partir de qual status considerado instabilidade
+            })
+            .ToList();
     }
 }
+
+/*
+
+Mapeamento de status por lentidão tecnospeed:
+
+"status":"1.0000' = Normal <= 2s 
+"status":"1.1250" = Lento <= 5s 
+"status":"1.2500" = Muito Lento <= 30s 
+"status":"1.5000" = Timeout > 30s 
+"status":"3.0000" = Erro
+
+*/

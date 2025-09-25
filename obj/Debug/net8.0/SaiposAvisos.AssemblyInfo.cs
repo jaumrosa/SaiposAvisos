@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaiposAvisos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf0fddad28f6e14d55ad38d395ca9dc0d8afee4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaiposAvisos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaiposAvisos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
