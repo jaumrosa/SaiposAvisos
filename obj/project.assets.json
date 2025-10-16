@@ -482,31 +482,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Computador\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\joao.rosa_saipos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Computador\\OneDrive\\Área de Trabalho\\Projetos\\C#\\SaiposAvisos\\SaiposAvisos.csproj",
+      "projectUniqueName": "C:\\Users\\joao.rosa_saipos\\Desktop\\Projetos\\SaiposAvisos\\SaiposAvisos\\SaiposAvisos.csproj",
       "projectName": "SaiposAvisos",
-      "projectPath": "C:\\Users\\Computador\\OneDrive\\Área de Trabalho\\Projetos\\C#\\SaiposAvisos\\SaiposAvisos.csproj",
-      "packagesPath": "C:\\Users\\Computador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Computador\\OneDrive\\Área de Trabalho\\Projetos\\C#\\SaiposAvisos\\obj\\",
+      "projectPath": "C:\\Users\\joao.rosa_saipos\\Desktop\\Projetos\\SaiposAvisos\\SaiposAvisos\\SaiposAvisos.csproj",
+      "packagesPath": "C:\\Users\\joao.rosa_saipos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joao.rosa_saipos\\Desktop\\Projetos\\SaiposAvisos\\SaiposAvisos\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Computador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joao.rosa_saipos\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

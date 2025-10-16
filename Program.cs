@@ -71,7 +71,8 @@ class Program
 
                         string mensagem = $"✅  __**Instabilidade na SEFAZ encerrada:**__  ✅\n\n" +
                                           $"**Estado:** {uf.ToUpper()}\n" +
-                                          $"**Horário de Fim da instabilidade:** {DateTime.Now:HH:mm}";
+                                          $"**Horário de Fim da instabilidade:** {DateTime.Now:HH:mm}\n" +
+                                          $"@here";
                         await DiscordNotifier.EnviarMensagem(discordWebhook, mensagem);
                     }
                     else
@@ -100,12 +101,13 @@ class Program
             else
             {
                 var inicioErro = erroDetectado[uf];
-                if (inicioErro.HasValue && (DateTime.Now - inicioErro.Value).TotalMinutes >= 3) // intervalo de tempo para considerar instabilidade para envio no discord 
+                if (inicioErro.HasValue && (DateTime.Now - inicioErro.Value).TotalMinutes >= 5) // intervalo de tempo para considerar instabilidade para envio no discord 
                 {
                     // envia alerta no discord
                     string mensagem = $"⚠️  __**Instabilidade na SEFAZ detectada: **__  ⚠️\n\n" +
                                       $"**Estado:** {uf.ToUpper()}\n" +
-                                      $"**Horário de inicio da instabilidade:** {inicioErro.Value:HH:mm}";
+                                      $"**Horário de inicio da instabilidade:** {inicioErro.Value:HH:mm}\n" +
+                                      $"@here";
 
                     await DiscordNotifier.EnviarMensagem(discordWebhook, mensagem);
                     Console.ForegroundColor = ConsoleColor.DarkBlue;

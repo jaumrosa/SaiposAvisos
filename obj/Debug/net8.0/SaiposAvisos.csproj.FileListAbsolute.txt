@@ -67,3 +67,38 @@ C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debu
 C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.pdb
 C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.genruntimeconfig.cache
 C:\Users\Computador\OneDrive\Área de Trabalho\Projetos\C#\SaiposAvisos\obj\Debug\net8.0\ref\SaiposAvisos.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\appsettings.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\global.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.exe
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.deps.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.runtimeconfig.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\SaiposAvisos.pdb
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.csproj.AssemblyReference.cache
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.AssemblyInfoInputs.cache
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.AssemblyInfo.cs
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.csproj.CoreCompileInputs.cache
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.sourcelink.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.SaiposAvisos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.build.SaiposAvisos.props
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SaiposAvisos.props
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SaiposAvisos.props
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\scopedcss\bundle\SaiposAvisos.styles.css
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.csproj.CopyComplete
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\refint\SaiposAvisos.dll
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.pdb
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\SaiposAvisos.genruntimeconfig.cache
+C:\Users\joao.rosa_saipos\Desktop\Projetos\SaiposAvisos\SaiposAvisos\obj\Debug\net8.0\ref\SaiposAvisos.dll
