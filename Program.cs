@@ -33,7 +33,7 @@ class Program
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"{DateTime.Now}: 🔁 Verificação de servidores concluída.\n");
             Console.ResetColor();
-            await Task.Delay(TimeSpan.FromSeconds(60)); // intervalo de 1 minuto antes de nova consulta
+            await Task.Delay(TimeSpan.FromSeconds(60)); // intervalo de 1 minuto antes de nova consulta aos servidores
         }
     }
 
@@ -56,22 +56,38 @@ class Program
 
             if (status == 1)
             {
-                // voltou ao normal -> registra no console e avisa no discord
-                if (erroDetectado.ContainsKey(uf))
+                // voltou ao normal -> registra no console e verifica se precisa notificar no discord ou não
+                
+                if (erroDetectado.TryGetValue(uf, out DateTime? inicioErro))
                 {
+
+                    // registra no console e envia no discord, pois inicioErro é nulo, portanto já passou mais de 3 minutos (já foi enviado uma mensagem de inicio de instabilidade anteriormente)
+
+                    if (!inicioErro.HasValue)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"{DateTime.Now}: ✅ {uf.ToUpper()} voltou ao normal. - (Alerta enviado no discord informando fim da instabilidade.)");
+                        Console.ResetColor();
+
+                        string mensagem = $"✅  __**Instabilidade na SEFAZ encerrada:**__  ✅\n\n" +
+                                          $"**Estado:** {uf.ToUpper()}\n" +
+                                          $"**Horário de Fim da instabilidade:** {DateTime.Now:HH:mm}";
+                        await DiscordNotifier.EnviarMensagem(discordWebhook, mensagem);
+                    }
+                    else
+                    {
+                        // apenas registra no console, pois como inicioErro tem um valor, a instabilidade foi curta, sem aviso de inicio no discord, portanto não necessita de aviso de encerramento
+
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"{DateTime.Now}: ✅ {uf.ToUpper()} voltou ao normal. - (Instabilidade curta, sem alerta enviado no discord).");
+                        Console.ResetColor();
+                    }
+
                     erroDetectado.Remove(uf);
-
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"{DateTime.Now}: ✅ {uf.ToUpper()} voltou ao normal.");
-                    Console.ResetColor();
-
-                    string mensagem = $"✅  __**Instabilidade na SEFAZ encerrada:**__  ✅\n\n" +
-                                      $"**Estado:** {uf.ToUpper()}\n" +
-                                      $"**Horário de Fim da instabilidade:** {DateTime.Now:HH:mm}";
-                    await DiscordNotifier.EnviarMensagem(discordWebhook, mensagem);
                 }
                 return;
             }
+
 
             // status diferente de 1 = erro
             if (!erroDetectado.ContainsKey(uf))
@@ -84,19 +100,19 @@ class Program
             else
             {
                 var inicioErro = erroDetectado[uf];
-                if (inicioErro.HasValue && (DateTime.Now - inicioErro.Value).TotalMinutes >= 3)
+                if (inicioErro.HasValue && (DateTime.Now - inicioErro.Value).TotalMinutes >= 3) // intervalo de tempo para considerar instabilidade para envio no discord 
                 {
-                    // envia alerta no Discord
+                    // envia alerta no discord
                     string mensagem = $"⚠️  __**Instabilidade na SEFAZ detectada: **__  ⚠️\n\n" +
                                       $"**Estado:** {uf.ToUpper()}\n" +
                                       $"**Horário de inicio da instabilidade:** {inicioErro.Value:HH:mm}";
 
                     await DiscordNotifier.EnviarMensagem(discordWebhook, mensagem);
                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                    Console.WriteLine($"{DateTime.Now}: 🚨 Alerta enviado no discord para {uf.ToUpper()}.");
+                    Console.WriteLine($"{DateTime.Now}: 🚨 Alerta enviado no discord informando instabilidade para {uf.ToUpper()}.");
                     Console.ResetColor();
 
-                    // só reenvia se voltar ao normal e cair novamente
+                    // só reenvia nova instabilidade no estado se voltar ao normal e cair novamente
                     erroDetectado[uf] = null;
                 }
             }
