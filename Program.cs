@@ -61,7 +61,7 @@ class Program
                 if (erroDetectado.TryGetValue(uf, out DateTime? inicioErro))
                 {
 
-                    // registra no console e envia no discord, pois inicioErro é nulo, portanto já passou mais de 3 minutos (já foi enviado uma mensagem de inicio de instabilidade anteriormente)
+                    // registra no console e envia no discord, pois inicioErro é nulo, portanto já passou mais de 5 minutos (já foi enviado uma mensagem de inicio de instabilidade anteriormente)
 
                     if (!inicioErro.HasValue)
                     {
@@ -110,7 +110,7 @@ class Program
                                       $"@here";
 
                     await DiscordNotifier.EnviarMensagem(discordWebhook, mensagem);
-                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"{DateTime.Now}: 🚨 Alerta enviado no discord informando instabilidade para {uf.ToUpper()}.");
                     Console.ResetColor();
 
