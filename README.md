@@ -1,7 +1,7 @@
 # 🛰️ Monitor SEFAZ NFC-e
 =======================
 
-Script em **C#** para monitorar automaticamente os servidores da **SEFAZ NFC-e** (Nota Fiscal de Consumidor Eletrônica) de todos os estados brasileiros, usando os dados do **monitor da TecnoSpeed.\
+Script em **C#** para monitorar automaticamente os servidores da **SEFAZ NFC-e** (Nota Fiscal de Consumidor Eletrônica) de todos os estados brasileiros, usando os dados do monitor da TecnoSpeed.\
 O sistema pode enviar alertas para um canal do Discord via webhook.
 
 * * * * *
